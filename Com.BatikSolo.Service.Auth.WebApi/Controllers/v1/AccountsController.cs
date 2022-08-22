@@ -7,11 +7,7 @@ using Com.BatikSolo.Service.Auth.Lib.ViewModels;
 using Com.BatikSolo.Service.Auth.WebApi.Utilities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
+ 
 namespace Com.BatikSolo.Service.Auth.WebApi.Controllers.v1
 {
     [Produces("application/json")]
