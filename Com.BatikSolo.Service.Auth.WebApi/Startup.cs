@@ -154,11 +154,11 @@ namespace Com.BatikSolo.Service.Auth.WebApi
             app.UseAuthentication();
             app.UseCors(AUTH_POLICY);
             app.UseMvc();
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
-            });
+            //app.UseSwagger();
+            //app.UseSwaggerUI(c =>
+            //{
+            //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+            //});
         }
     }
 }
